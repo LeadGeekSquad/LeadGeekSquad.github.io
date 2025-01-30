@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --primary-color: #4A90E2;
+    --background-light: #f4f4f4;
+    --background-dark: #1c1c1c;
+    --text-light: #333;
+    --text-dark: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background: var(--primary-color);
+    padding: 15px 0;
+}
+
+header .logo {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a, #theme-toggle {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.hero {
+    padding: 100px 0;
+    background: #2b2b2b;
+    color: white;
+}
+
+.hero .highlight {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #357ABD;
+}
+
+.projects {
+    padding: 50px 0;
+    background: var(--background-light);
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode .project-card {
+    background: #333;
+    color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+    background: #357ABD;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
