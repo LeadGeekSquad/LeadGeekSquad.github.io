@@ -25,7 +25,7 @@ This portfolio is designed to be **visually stunning**, **interactive**, and **u
 
 ## 🚀 Live Demo
 
-🔗 [Visit My Portfolio](https://LeadGeekSquad.github.io/)  
+🔗 [Visit My Portfolio](https://leadgeeksquad.github.io/)  
 
 ---
 
