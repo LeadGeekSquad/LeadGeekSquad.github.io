@@ -97,6 +97,7 @@ nav ul li a, #theme-toggle {
     width: 250px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .project-card:hover {
@@ -118,6 +119,7 @@ footer {
 .dark-mode .project-card {
     background: #333;
     color: white;
+    box-shadow: 0px 0px 1px 1px var(--primary-color);
 }
 
 .dark-mode header, .dark-mode footer {
@@ -125,5 +127,16 @@ footer {
 }
 
 .contact {
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.container img {
+    border-radius: 20%;
+}
+
+.dark-mode #projects {
+    /* background-color: rgb(134, 131, 131); */
+    background-color: var(--text-light);
+    
 }
