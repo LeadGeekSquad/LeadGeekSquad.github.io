@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio! This is where I showcase my work, projects, and skills in an engaging and interactive way.
 
+[Click here to visit portfolio](https://leadgeeksquad.github.io/)
+
 ---
 
 ## 🌟 About My Portfolio
