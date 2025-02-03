@@ -9,7 +9,8 @@ Welcome to my personal portfolio! This is where I showcase my work, projects, an
 ## 🌟 About My Portfolio
 
 This portfolio is designed to be **visually stunning**, **interactive**, and **user-friendly**. It features:  
-- ✅ **Smooth animations** for a delightful experience  
+
+- ✅ **Smooth animations** for a delightful experience
 - ✅ **Dark & Light mode toggle** 🌙☀️  
 - ✅ **Fully responsive** for mobile & desktop  
 - ✅ **Modern UI** with engaging hover effects
