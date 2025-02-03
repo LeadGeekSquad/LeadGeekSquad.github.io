@@ -97,8 +97,18 @@ nav ul li a, #theme-toggle {
 
 .project-list {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-card {
